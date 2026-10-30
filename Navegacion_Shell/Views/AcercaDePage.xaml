@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion_Shell.Views.AcercaDePage"
+             Title="Acerca de">
+    <VerticalStackLayout Padding="24" Spacing="12">
+        <Label Text="Acerca de" FontSize="24" FontAttributes="Bold" />
+        <Label Text="Aplicación demo de navegación con Shell en .NET MAUI." />
+        <Label Text="Versión 1.0.0" TextColor="Gray" />
+    </VerticalStackLayout>
+</ContentPage>

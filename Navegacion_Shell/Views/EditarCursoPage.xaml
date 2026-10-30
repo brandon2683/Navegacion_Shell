@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion_Shell.Views.EditarCursoPage"
+             Title="Editar Curso">
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="16">
+            <Label Text="Nombre" FontAttributes="Bold" />
+            <Entry x:Name="NombreEntry" />
+
+            <Label Text="Descripción" FontAttributes="Bold" />
+            <Editor x:Name="DescripcionEntry" HeightRequest="100" AutoSize="TextChanges" />
+
+            <Label Text="Instructor" FontAttributes="Bold" />
+            <Entry x:Name="InstructorEntry" />
+
+            <Button Text="💾 Guardar" Clicked="OnGuardarClicked" Margin="0,20,0,0" />
+            <Button Text="Cancelar"
+                    Clicked="OnCancelarClicked"
+                    BackgroundColor="Gray" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

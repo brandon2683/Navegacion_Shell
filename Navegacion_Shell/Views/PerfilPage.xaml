@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion_Shell.Views.PerfilPage"
+             Title="Perfil">
+    <VerticalStackLayout Padding="24" Spacing="12">
+        <Label Text="Perfil del Usuario" FontSize="24" FontAttributes="Bold" />
+        <Label Text="Nombre: Juan Pérez" />
+        <Label Text="Correo: juan@correo.com" />
+        <Label Text="Rol: Estudiante" />
+    </VerticalStackLayout>
+</ContentPage>

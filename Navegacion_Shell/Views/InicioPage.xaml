@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion_Shell.Views.InicioPage"
+             Title="Inicio">
+    <VerticalStackLayout Padding="24" Spacing="16" VerticalOptions="Center">
+        <Label Text="Bienvenido a MiApp"
+               FontSize="28" FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        <Label Text="Usa las pestañas o abre el menú lateral."
+               HorizontalTextAlignment="Center"
+               TextColor="Gray" />
+    </VerticalStackLayout>
+</ContentPage>
